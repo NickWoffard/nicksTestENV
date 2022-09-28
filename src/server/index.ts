@@ -1,20 +1,24 @@
 import {
-  onOpen,
-  openDialog,
-  openDialogBootstrap,
-  openAboutSidebar,
+  doGet,
 } from './ui';
 
-import { getSheetsData, addSheet, deleteSheet, setActiveSheet } from './sheets';
+import { staff_autocomplete, autocomplete, collect_profile, insert_row, update_row, move_row, get_rows, get_row, get_user_email, get_user } from './db';
+
+import { get_evaluation_template, create_evaluation } from './evaluations';
 
 // Public functions must be exported as named exports
 export {
-  onOpen,
-  openDialog,
-  openDialogBootstrap,
-  openAboutSidebar,
-  getSheetsData,
-  addSheet,
-  deleteSheet,
-  setActiveSheet,
+  staff_autocomplete,
+  autocomplete,
+  collect_profile,
+  insert_row,
+  update_row,
+  move_row,
+  get_rows,
+  get_row,
+  get_user_email,
+  get_user,
+  doGet,
+  get_evaluation_template,
+  create_evaluation,
 };

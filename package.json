@@ -1,5 +1,5 @@
 {
-  "name": "react-google-apps-script",
+  "name": "DA2nd_Applications",
   "version": "2.1.0",
   "description": "Starter project for using React with Google Apps Script",
   "repository": {
@@ -34,11 +34,30 @@
     "npm": ">=6.0.0"
   },
   "dependencies": {
-    "prop-types": "^15.8.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.10.6",
+    "@mui/x-data-grid": "^5.17.4",
+    "@react-spring/web": "^9.5.4",
+    "@tidyjs/tidy": "^2.5.1",
+    "@visx/mock-data": "^2.1.2",
+    "@visx/scale": "^2.2.2",
+    "@visx/visx": "^2.13.0",
+    "bootstrap": "^5.2.1",
+    "chart.js": "^3.9.1",
+    "faker": "^6.6.6",
+    "mui-datatables": "^4.2.2",
+    "rc-scrollbars": "^1.1.5",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
-    "react-transition-group": "^4.4.2"
+    "react-select": "^5.4.0",
+    "react-spinners": "^0.13.4",
+    "react-transition-group": "^4.4.2",
+    "survey-react-ui": "^1.9.50",
+    "surveyjs": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
