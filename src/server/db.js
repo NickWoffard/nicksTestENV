@@ -83,3 +83,15 @@ export const get_user = (database) => {
   var db = open(database);
   return getRows(db, 'Employee', [], {email: Session.getActiveUser().getEmail()}).pop();
 };
+
+export const get_inmates = () => {
+  var file = DriveApp.getFileById('1AUNK-q9e-fRbJy71ifAqmTmQMGkDS0p6');
+  var json = Array.from(JSON.parse(file.getBlob().getDataAsString()));
+  json.map((row) => {
+    try {
+      row.inmate_name = row.inmate_name.replaceAll(/ +(?= )/g,'');
+    }
+    catch (e){}
+  });
+  return json;
+};

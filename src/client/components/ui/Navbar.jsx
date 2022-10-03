@@ -1,4 +1,4 @@
-import { ProfileModal, AdminDashboard, Home, StaffForm, EvaluationForm, AcknowledgementForm, PleaForm, PleaDashboard, NolleForm, NolleDashboard, WarrantForm, MyDashboard, NewCaseForm, GiglioForm } from '../../apps/exports';
+import { ProfileModal, AdminDashboard, Home, StaffForm, EvaluationForm, AcknowledgementForm, PleaForm, PleaDashboard, NolleForm, NolleDashboard, WarrantForm, MyDashboard, ScoreCardPage, NewCaseForm, GiglioForm } from '../../apps/exports';
 import { Scrollbars } from 'rc-scrollbars';
 
 const Navbar = () => {
@@ -89,6 +89,11 @@ const Navbar = () => {
             <li class="nav-item">
               <a class="nav-link" href="" onClick={(e) => load_page(e, <MyDashboard />)}>
                 Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" onClick={(e) => load_page(e, <ScoreCardPage />)}>
+                Score Cards
               </a>
             </li>
             <li class="nav-item">

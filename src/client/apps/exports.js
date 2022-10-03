@@ -24,6 +24,9 @@ import NolleDashboard from './Nolles/Dashboard';
 import WarrantForm from '../apps/Warrants/index';
 import MyDashboard from "./My Dashboard/index";
 
+import ScoreCard from "./ScoreCards/ScoreCard";
+import ScoreCardPage from "./ScoreCards/index";
+
 import GiglioForm from '../apps/Giglio/index';
 
 import NewCaseForm from '../apps/bridge/NewCase';
@@ -38,6 +41,6 @@ import StaffManagementJSON from "../components/form/forms/staff_management";
 export { StaffSearchField, SupervisorSearchField, CaseNumberSearchField, SelectField }
 //export { AutoFillForm }
 export { ProfileModal, Loader }
-export { Home, AdminDashboard, StaffForm, EvaluationForm, AcknowledgementForm, PleaForm, ViewPleaModal, PleaDashboard, NolleForm, ViewNolleModal, NolleDashboard, WarrantForm, MyDashboard, NewCaseForm, GiglioForm }
+export { Home, AdminDashboard, StaffForm, EvaluationForm, AcknowledgementForm, PleaForm, ViewPleaModal, PleaDashboard, NolleForm, ViewNolleModal, NolleDashboard, WarrantForm, MyDashboard, ScoreCard, ScoreCardPage, NewCaseForm, GiglioForm }
 
 export { EvaluationJSON, GiglioJSON, NolleJSON, PleaJSON, StaffManagementJSON }
