@@ -40,6 +40,7 @@
     "@mui/material": "^5.10.6",
     "@mui/x-data-grid": "^5.17.4",
     "@react-spring/web": "^9.5.4",
+    "@reduxjs/toolkit": "^1.8.5",
     "@tidyjs/tidy": "^2.5.1",
     "@visx/mock-data": "^2.1.2",
     "@visx/scale": "^2.2.2",
